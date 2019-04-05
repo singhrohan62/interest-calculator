@@ -1,0 +1,35 @@
+{
+  "name": "interest-calculator",
+  "version": "1.0.0",
+  "description": "Interest Rate Calculator",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open ",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": ["React","Ant-design","Babel","Webpack"],
+  "author": "Rohan Singh",
+  "license": "ISC",
+  "homepage": "http://singhrohan62.github.io/interest-calculator",
+  "dependencies": {
+    "antd": "^3.16.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "gh-pages": "^2.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

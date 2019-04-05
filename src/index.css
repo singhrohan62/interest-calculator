@@ -1,0 +1,38 @@
+body {
+	background-color: #172528;
+	overflow-x: hidden;
+}
+
+h2 {
+	color: #fff;
+	font-size: x-large;
+	font-weight: bolder;
+	margin-bottom: 0;
+	padding-left: 20px;
+}
+
+h3 {
+	color: #fff;
+	font-size: x-large;
+	font-weight: bolder;
+	padding-bottom: 30px;
+}
+
+h5 {
+	color: #fff;
+	font-size: large;
+	font-weight: bolder;
+}
+
+p {
+	color: #1b272e;
+	font-size: medium;
+	font-weight: bolder;
+}
+
+.button-class {
+	background: #17252a;
+	font-size: medium;
+	font-weight:bold;
+	color: #fff;
+}

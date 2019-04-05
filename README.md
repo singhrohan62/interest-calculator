@@ -1,3 +1,4 @@
+<h2 align="center"> INTEREST CALCULATOR </h2>
 <p align="center">A react app to view interest rate and monthly payments according to the provided amount and duration.</p>
 
 ### Development
